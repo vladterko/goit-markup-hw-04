@@ -16,6 +16,7 @@
     --main-bg-clr: #fff;
     --sec-bg-clr: #F5F4FA;
     --dark-bg-clr: #2F303A;
+    --hero-bg-clr: #C4C4C4;
 
     /* grid */
     --indent: 30px;
@@ -193,9 +194,21 @@ body {
 /** =====  Hero section  =====  
 ======================================== */
 .hero-section {
-    background-color: var(--dark-bg-clr);
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 200px;
     padding-bottom: 200px;
+
+    background-color: var(--hero-bg-clr);
+    background-image: 
+    linear-gradient(
+        rgba(47, 48, 58, 0.4), 
+        rgba(47, 48, 58, 0.4)),
+        url(../images/hero/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .main-title {
