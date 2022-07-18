@@ -21,6 +21,9 @@
     /* grid */
     --indent: 30px;
     --items: 3;
+
+    /* icons */
+    --main-icon-clr: #AFB1B8;
 }
 
 /** =====  Reset styles  =====  
@@ -67,6 +70,7 @@ body {
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
+    outline: 1px solid red;
 }
 
 .section {
@@ -272,6 +276,15 @@ body {
     margin-right: 30px;
 }
 
+.features-wrapper {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 .features-title {
     margin-bottom: 10px;
 
@@ -331,6 +344,32 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-txt-clr);
 }
+
+/** =====  Clients section  =====  
+======================================== */
+.clients-list {
+    display: flex;
+    gap: 30px;
+}
+
+.clients-wrapper {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+
+    fill: var(--main-icon-clr);
+    border: 1px solid var(--main-icon-clr);
+    border-radius: 4px;
+}
+
+.clients-wrapper:hover,
+.clients-wrapper:focus {
+    fill: var(--accent-clr);
+    border: 1px solid var(--accent-clr);
+}
+
 
 /** =====  Footer section  =====  
 ======================================== */
