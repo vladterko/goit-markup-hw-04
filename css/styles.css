@@ -156,6 +156,12 @@ body {
     border-radius: 50%;
 }
 
+.socials-link:hover,
+.socials-link:focus {
+    background-color: var(--accent-clr);
+    fill: var(--main-bg-clr);
+}
+
 /** =====  Header section  =====  
 ======================================== */
 .header-container {
@@ -370,12 +376,6 @@ body {
     color: var(--secondary-txt-clr);
 }
 
-.socials-link:hover,
-.socials-link:focus {
-    background-color: var(--accent-clr);
-    fill: var(--main-bg-clr);
-}
-
 /** =====  Clients section  =====  
 ======================================== */
 .clients-list {
@@ -406,11 +406,22 @@ body {
 
 /** =====  Footer section  =====  
 ======================================== */
+.footer-container {
+    display: flex;
+}
+
 .footer-section {
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
 
+    max-width: 1600px;
     background-color: var(--dark-bg-clr);
+}
+
+.footer-left-side {
+    margin-right: 70px;
 }
 
 .footer-logo {
@@ -451,6 +462,29 @@ body {
 .addr-link:focus {
     color: var(--light-txt-clr);
 }
+
+.footer-right-side {
+    padding-top: 12px;
+}
+
+.join-title {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--light-txt-clr);
+}
+
+.company-socials {
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: var(--main-bg-clr);
+}
+
+
 
 /** =====  Portfolio page  =====  
 ======================================== */
