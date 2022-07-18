@@ -339,7 +339,12 @@ body {
 /** =====  Team section  =====  
 ======================================== */
 .team-section {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1600px;
+    
     background-color: var(--sec-bg-clr);
+    
 }
 
 .team-list {
