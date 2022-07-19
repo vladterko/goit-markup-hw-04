@@ -164,11 +164,13 @@ body {
 
 /** =====  Header section  =====  
 ======================================== */
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .header-container {
     display: flex;
     align-items: center;
-
-    border-bottom: 1px solid #ECECEC;
 }
 
 .header-logo {
@@ -341,10 +343,8 @@ body {
 .team-section {
     margin-right: auto;
     margin-left: auto;
-    max-width: 1600px;
-    
+
     background-color: var(--sec-bg-clr);
-    
 }
 
 .team-list {
@@ -422,7 +422,6 @@ body {
     margin-right: auto;
     margin-left: auto;
 
-    max-width: 1600px;
     background-color: var(--dark-bg-clr);
 }
 
