@@ -228,8 +228,9 @@ body {
     color: var(--secondary-txt-clr);
 }
 
-.comtact-icon {
+.contact-icon {
     margin-right: 10px;
+    fill: currentColor;
 }
 
 /** =====  Hero section  =====  
